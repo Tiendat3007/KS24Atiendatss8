@@ -8,7 +8,11 @@ int main() {
     	if(Array[i]==number){
 		
         printf("SO BAN VUA NHAP la phan tu thu %d co gia tri la: %d",i,Array[i] );
+		check=1;
        }  
+	}
+		if(!check){
+		printf("phan tu khong co trong mang");
 	}
  return 0;
 }
